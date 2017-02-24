@@ -8,6 +8,15 @@ html,body{
  box-sizing: border-box;
 }
 
+.btn .video{
+    zoom:1;
+}
+.btn .video{
+    content: "";
+    clear: both;
+    display: block;
+}
+
 img{
     max-width: 100%;
 }
@@ -21,14 +30,94 @@ body{
 .back-ground {
     width: 870px;
     height: 985px;
+    margin:50px 0 50px 0;
     background-color: white;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 
-.dot{
-    position: absolute;
-    width: 22px;
-    height: 23px;
+a.close-icon {
+    color:red;        
     float: right;
+    margin-top:-10px;
+    margin-right:-10px;
+    cursor:pointer;
+    border: 1px solid #AEAEAE;
+    border-radius: 20px;
+    background: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 10px 5px;       
+}
+
+.close-icon:before {
+    content: "×";
+}
+a.close-icon:hover{
+    cursor:pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 30px;
+    background: #605F61;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px; 
+}
+
+.video {
+    padding:31px 31px 0 31px;
+    border-radius: 5px; 
+}
+.btn{
+    display: block;
+    position:absolute;
+    top:500px;
+    
+}
+.btn ul{
+    display: -webkit-inline-box;
+    list-style: none;
+}
+.btn-left li{
+    padding: 0 30px 10px 0;
+    margin-left: -8px;
+}
+.btn-right{
+    position: relative;
+    float: right;
+    top:-65px;
+    left:660px;
+}
+.btn-right li{
+    padding:0 9px 10px 0;
+}
+
+.border-bottom{
+    position: relative;
+    bottom:520px;
+    margin: 0 31px 0 1px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 36px;
+    width: 836px;
+}
+.commentBox{
+    position: relative;
+    margin: 5px;
+    width: 807px;
+    margin: 0 31px 0 30px;
+}
+
+.comment{
+    width: 807px;
+    padding: 17.5px;
+    display: inline-block;
+    border: 2px solid #e6e6e6;
+    border-radius: 4px;
+    box-sizing: border-box;
 }

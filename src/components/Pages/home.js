@@ -6,10 +6,13 @@ export default class Home extends React.Component {
     render() {
         return (
             <div className="back-ground">
-                <div className="dot">
-                    <img src="img/got.jpg" alt="dot" />
+                <div>
+                    <a href="#" className="close-icon"></a>
                 </div>
+                <div className="video">
+                    <img src='img/video.jpg' alt="video"/>
+                    </div>
             </div>
-        )
+        );
     }
 }
