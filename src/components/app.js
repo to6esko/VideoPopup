@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Home from './Pages/home';
 import Buttons from './Pages/buttons';
 import CommentBox from './Pages/commetBox';
+import TextBox from './Pages/textBox';
 
 export default class App extends React.Component{
     render() {
@@ -17,7 +18,10 @@ export default class App extends React.Component{
             </div>
             <div>
                 <CommentBox/>    
-                </div>    
+            </div>
+            <div>
+                <TextBox/>    
+                    </div>
                 </div>
         )
     }

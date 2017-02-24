@@ -8,7 +8,7 @@ html,body{
  box-sizing: border-box;
 }
 
-.btn .video{
+.btn .video .border-bottom .commentBox .comment{
     zoom:1;
 }
 .btn .video{
@@ -26,6 +26,7 @@ body{
     height: auto;
     margin: auto;
     background-color: black;
+    font-family: Merriwather;
 }
 .back-ground {
     width: 870px;
@@ -114,10 +115,47 @@ a.close-icon:hover{
 }
 
 .comment{
+    font-family: ProximaNova Regular,Myriad Pro Regular;
+    font-style: italic;
+    color: #8e9197;
+    font-size: 18pt;
     width: 807px;
     padding: 17.5px;
     display: inline-block;
     border: 2px solid #e6e6e6;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+.textBox{
+    position: relative;
+    bottom: 505px;
+    padding:31px 31px 0 15px;
+    border-radius: 5px; 
+}
+
+.text{
+   position: relative;
+   margin: -51px 0 0 67px;
+   line-height: 0%;
+}
+.text h1{
+    font-family: Merriwather,Myriad Pro Regular;
+    font-size:18pt;
+    font-weight: bold;
+    color: 	#28b7d7;
+   display: inline-block;
+}
+.text p{
+    font-family: ProximaNova Regular,Myriad Pro Regular;
+    font-size:10pt;
+    letter-spacing: -1px;
+    color:#b5b5b5;
+    font-weight: 600;
+}
+
+.commentText{
+    position:relative;
+    bottom: 215px;
+    margin:0 0 0 10px;
 }
