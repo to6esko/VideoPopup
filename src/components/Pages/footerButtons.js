@@ -20,6 +20,7 @@ export default class FooterButtons extends React.Component {
                     </ul>
                 </div>
                 <div className="reply">
+                    <img className="piramida" src="img/piramida.jpg" alt="piramida" />
                     <input type="text" className="reply-comment" name="reply" placeholder="Reply..." />
                 </div>
             </div>

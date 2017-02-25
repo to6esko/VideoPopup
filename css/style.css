@@ -11,13 +11,13 @@ html,body{
 .btn .video .btn-left .btn-right .border-bottom .commentBox .comment
 .contentText .border-bottom .textBox .text .gradient .commentText 
 .btn-footer .btn-footer-right .footerBottom .footer-btn .reply 
-.reply-comment {
+.reply-comment .piramida {
     zoom:1;
 }
 .btn .video .btn-left .btn-right .border-bottom .commentBox .comment
 .contentText .border-bottom .textBox .text .gradient .commentText 
 .btn-footer .btn-footer-right .footerBottom .footer-btn .reply 
-.reply-comment {
+.reply-comment .piramida {
     content: "";
     clear: both;
     display: block;
@@ -37,7 +37,7 @@ body{
 .back-ground {
     width: 870px;
     height: 985px;
-    margin:50px 0 50px 0;
+    margin-top:50px;
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -78,11 +78,11 @@ a.close-icon:hover{
 }
 
 .video {
+    position: absolute;
     padding:31px 31px 0 31px;
     border-radius: 5px; 
 }
 .btn{
-    display: block;
     position:absolute;
     top:497px;
     
@@ -99,7 +99,7 @@ a.close-icon:hover{
     position: relative;
     float: right;
     top:-65px;
-    left:660px;
+    left:661px;
 }
 .btn-right li{
     padding:0 9px 10px 0;
@@ -107,7 +107,7 @@ a.close-icon:hover{
 
 .border-bottom{
     position: relative;
-    bottom:520px;
+    bottom:470px;
     margin: 0 31px 0 1px;
     border-bottom: 1px solid #e6e6e6;
     padding-bottom: 36px;
@@ -126,6 +126,7 @@ a.close-icon:hover{
     font-size: 18pt;
     width: 807px;
     padding: 11.5px;
+    padding-left: 17px;
     display: inline-block;
     border: 2px solid #e6e6e6;
     border-radius: 4px;
@@ -134,7 +135,7 @@ a.close-icon:hover{
 
 .textBox{
     position: relative;
-    bottom: 505px;
+    bottom: 455px;
     padding:31px 31px 0 15px;
     border-radius: 5px; 
 }
@@ -164,15 +165,15 @@ a.close-icon:hover{
 .commentText{
     width: 790px;
     position:relative;
-    bottom: 250px;
+    bottom: 249px;
     margin:22px 0 0 30px;
 }
 
 .btn-footer{
     display: block;
-    position:absolute;
+    position:relative;
     margin-left: 13px;
-    bottom: -13px;
+    top: -704px;
 }
 
 .btn-footer li{
@@ -201,13 +202,13 @@ a.close-icon:hover{
     display: block;
     position:absolute;
     margin-left: 1px;
-    bottom: -42px;
+    bottom: -41px;
 }
 
 .reply{
     position: absolute;
-    width: 807px;
-    margin: 26px 31px 0 31px;
+    margin: 0 31px 0 31px;
+    top: 86px;
 }
 
 .reply-comment{
@@ -215,10 +216,17 @@ a.close-icon:hover{
     font-style: italic;
     color: #8e9197;
     font-size: 18pt;
-    width: 807px;
+    width: 794px;
     padding: 11.5px;
+    padding-left: 20px;
     display: inline-block;
     border: 2px solid #e6e6e6;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+.piramida{
+    position: absolute;
+    left:25px;
+    top:-4px;
 }
