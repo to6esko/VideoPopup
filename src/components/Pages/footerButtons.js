@@ -3,6 +3,7 @@ import React from 'react';
 export default class FooterButtons extends React.Component {
     render() {
         return (
+            <div className="footer">
             <div className="btn-footer">
                 <ul>
                     <li><img src="img/btn-like.jpg" alt="like" /></li>
@@ -12,6 +13,8 @@ export default class FooterButtons extends React.Component {
                 </ul>
                 <div className="footerBottom">
                 </div>
+            </div>
+                <div>
                 <div className="footer-btn">
                     <ul>
                         <li><img src="img/footer-comment.jpg" alt="like" /></li>
@@ -19,11 +22,12 @@ export default class FooterButtons extends React.Component {
                         <li><img src="img/btn-feedback.jpg" alt="share" /></li>
                     </ul>
                 </div>
+                </div>    
                 <div className="reply">
                     <img className="piramida" src="img/piramida.jpg" alt="piramida" />
                     <input type="text" className="reply-comment" name="reply" placeholder="Reply..." />
                 </div>
-            </div>
+            </div >   
         )
     }
 }

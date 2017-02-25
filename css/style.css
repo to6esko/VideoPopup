@@ -9,13 +9,13 @@ html,body{
 }
 
 .btn .video .btn-left .btn-right .border-bottom .commentBox .comment
-.contentText .border-bottom .textBox .text .gradient .commentText 
+.contentText .border-bottom .textBox .text .gradient .commentText .footer
 .btn-footer .btn-footer-right .footerBottom .footer-btn .reply 
 .reply-comment .piramida {
     zoom:1;
 }
 .btn .video .btn-left .btn-right .border-bottom .commentBox .comment
-.contentText .border-bottom .textBox .text .gradient .commentText 
+.contentText .border-bottom .textBox .text .gradient .commentText .footer
 .btn-footer .btn-footer-right .footerBottom .footer-btn .reply 
 .reply-comment .piramida {
     content: "";
@@ -93,13 +93,13 @@ a.close-icon:hover{
 }
 .btn-left li{
     padding: 0 30px 10px 0;
-    margin-left: -8px;
+    margin-left: -6px;
 }
 .btn-right{
     position: relative;
     float: right;
     top:-65px;
-    left:661px;
+    left:658px;
 }
 .btn-right li{
     padding:0 9px 10px 0;
@@ -115,8 +115,7 @@ a.close-icon:hover{
 }
 .commentBox{
     position: relative;
-    width: 807px;
-    margin: -8px 31px 0 30px;
+    margin: -8px 31px 0 31px;
 }
 
 .comment{
@@ -124,7 +123,7 @@ a.close-icon:hover{
     font-style: italic;
     color: #8e9197;
     font-size: 18pt;
-    width: 807px;
+    width: 806px;
     padding: 11.5px;
     padding-left: 17px;
     display: inline-block;
@@ -134,8 +133,8 @@ a.close-icon:hover{
 }
 
 .textBox{
-    position: relative;
-    bottom: 455px;
+    position: absolute;
+    top: 663px;
     padding:31px 31px 0 15px;
     border-radius: 5px; 
 }
@@ -169,16 +168,22 @@ a.close-icon:hover{
     margin:22px 0 0 30px;
 }
 
-.btn-footer{
+.footer{
     display: block;
-    position:relative;
+    position:absolute;
     margin-left: 13px;
-    top: -704px;
+    top: 865px;
+}
+.btn-footer ul{
+    margin-left: -8px;
 }
 
 .btn-footer li{
-    padding: 0 30px 10px 0;
-    margin-left: -8px;
+    padding: 0 22px 10px 0;
+    
+}
+.btn-footer li:nth-child(3){
+    padding-left: 2px;
 }
 
 .btn-footer ul{
@@ -199,15 +204,23 @@ a.close-icon:hover{
 }
 
 .footer-btn{
-    display: block;
-    position:absolute;
+    position:relative;
     margin-left: 1px;
-    bottom: -41px;
+    top:-19px;
 }
 
+.footer-btn li{
+    display: inline;
+    padding: 0 32px 10px 0;
+    margin-left: -8px;
+}
+
+.footer-btn li:last-child{
+    padding-left: 1px;
+}
 .reply{
     position: absolute;
-    margin: 0 31px 0 31px;
+    margin: 0 31px 0 32px;
     top: 86px;
 }
 
@@ -216,11 +229,11 @@ a.close-icon:hover{
     font-style: italic;
     color: #8e9197;
     font-size: 18pt;
-    width: 794px;
+    width: 793px;
     padding: 11.5px;
     padding-left: 20px;
     display: inline-block;
-    border: 2px solid #e6e6e6;
+    border: 1px solid #e6e6e6;
     border-radius: 4px;
     box-sizing: border-box;
 }
