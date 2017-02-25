@@ -10,12 +10,14 @@ html,body{
 
 .btn .video .btn-left .btn-right .border-bottom .commentBox .comment
 .contentText .border-bottom .textBox .text .gradient .commentText 
-.btn-footer .btn-footer-right .footerBottom{
+.btn-footer .btn-footer-right .footerBottom .footer-btn .reply 
+.reply-comment {
     zoom:1;
 }
 .btn .video .btn-left .btn-right .border-bottom .commentBox .comment
 .contentText .border-bottom .textBox .text .gradient .commentText 
-.btn-footer .btn-footer-right .footerBottom{
+.btn-footer .btn-footer-right .footerBottom .footer-btn .reply 
+.reply-comment {
     content: "";
     clear: both;
     display: block;
@@ -31,7 +33,6 @@ body{
     margin: auto;
     font-size:16px;
     background-color: black;
-    font-family: Merriwather;
 }
 .back-ground {
     width: 870px;
@@ -171,7 +172,7 @@ a.close-icon:hover{
     display: block;
     position:absolute;
     margin-left: 13px;
-    bottom: -14px;
+    bottom: -13px;
 }
 
 .btn-footer li{
@@ -194,4 +195,30 @@ a.close-icon:hover{
     margin-left: 7px;
     border-bottom: 1px solid #e6e6e6;
     width: 819px;
+}
+
+.footer-btn{
+    display: block;
+    position:absolute;
+    margin-left: 1px;
+    bottom: -42px;
+}
+
+.reply{
+    position: absolute;
+    width: 807px;
+    margin: 26px 31px 0 31px;
+}
+
+.reply-comment{
+    font-family: ProximaNova Regular,Myriad Pro Regular;
+    font-style: italic;
+    color: #8e9197;
+    font-size: 18pt;
+    width: 807px;
+    padding: 11.5px;
+    display: inline-block;
+    border: 2px solid #e6e6e6;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
